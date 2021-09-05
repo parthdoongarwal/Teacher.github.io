@@ -1,0 +1,182 @@
+*{
+    font-family: "Open Sans", sans-serif;
+    margin:0;
+    padding:0;
+  }
+  
+  #main{
+    position:relative;
+    background:orange;
+    height:85vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  
+  #main h1{
+    font-size:60px;
+    text-align:center;
+    line-height:90px;
+    color:white;
+    z-index:3;
+  }
+  
+  
+  
+  .custom-shape-divider-bottom-1630812389 {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+      transform: rotate(180deg);
+  }
+  
+  .custom-shape-divider-bottom-1630812389 svg {
+      position: relative;
+      display: block;
+      width: calc(100% + 1.3px);
+      height: 120px;
+      transform: rotateY(180deg);
+  }
+  
+  .custom-shape-divider-bottom-1630812389 .shape-fill {
+      fill: #006994;
+  }
+  
+  
+  
+  #about{
+    background: #006994;
+    height:80vh;
+    position: relative;
+    
+  }
+  
+  #about-text{
+    color:white;
+    font-size:30px;
+    font-weight:100;
+    text-align:center;
+    padding-top:20px;
+  }
+  
+  #about-main{
+    margin-top:50px;
+   
+    display:grid;
+    grid-template-columns:60% 40%;
+    grid-template-rows:63vh;
+  }
+  
+  #image-con{
+    background:black;
+    padding:20px;
+  }
+  
+  #main-text{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+   align-items:center;
+    text-align:center;
+   
+  }
+  
+  #main-text h1{
+      color:white;
+    margin-bottom:40px;
+    font-size:40px;
+  }
+
+  #main-text p{
+color:white;
+  }
+  
+  #image{
+    height:100%;
+    width:100%;
+    background:url("vipin_sir.jpg");
+    background-position:center;
+    background-size:cover;
+  }
+
+
+  @media(max-width:793px){
+
+    #about{
+        height:120vh;
+
+    }
+    #about-main{
+        margin-top:50px;
+
+        display:grid;
+        grid-template-columns:100%;
+        grid-template-rows:30vh 70vh;
+      }
+      
+  }
+
+
+  
+  .blob {
+    position: absolute;
+    top: 0;
+    left: 0;
+    fill: pink;
+    width: 10vmax;
+    z-index: 1;
+    animation: move 10s ease-in-out infinite;
+    transform-origin: 20% 20%;
+  }
+  
+  @keyframes move {
+    0%   { transform: scale(1)   translate(10px, -30px); }
+    38%  { transform: scale(0.8, 1) translate(80vw, 30vh) rotate(160deg); }
+    40%  { transform: scale(0.8, 1) translate(80vw, 30vh) rotate(160deg); }
+    78%  { transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg); }
+    80%  { transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg); }
+    100% { transform: scale(1)   translate(10px, -30px); }
+  }
+
+
+  .custom-shape-divider-bottom-1630816015 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1630816015 svg {
+    position: relative;
+    display: block;
+    width: calc(134% + 1.3px);
+    height: 192px;
+}
+
+.custom-shape-divider-bottom-1630816015 .shape-fill {
+    fill: #ADD8E6;
+}
+
+
+#endgame{
+background-color: #ADD8E6;
+height:50vh;
+
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+#endgame h1{
+font-size:50px;
+color:blue;
+text-align:center;
+line-height: 60px;
+}
